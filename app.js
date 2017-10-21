@@ -16,8 +16,4 @@ app.get('/guess/:number', function(req, res){
   res.send({message:result })
 });
 
-app.listen(app.get('port'),function(){
-  console.log('Node app listening');
-});
-
 module.exports = app;
